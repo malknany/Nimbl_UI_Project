@@ -45,7 +45,7 @@ class CardWidget extends StatelessWidget {
                   ),
                   CircleAvatar(
                     foregroundImage: AssetImage(img),
-                    radius: 25,
+                    radius: 25.r,
                   )
                 ],
               ),

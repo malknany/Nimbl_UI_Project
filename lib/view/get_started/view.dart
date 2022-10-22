@@ -28,21 +28,21 @@ class _GetStartScreenState extends State<GetStartScreen> {
                 SizedBox(
                   height: 50.5.h,
                 ),
-                const Text('Clean Home \n Clean Life.',
+                 Text('Clean Home \n Clean Life.',
                     style: TextStyle(
-                        fontSize: 61,
+                        fontSize: 61.sp,
                         color: Colors.white,
                         fontWeight: FontWeight.w500),
                     textAlign: TextAlign.center),
                 SizedBox(
                   height: 40.h,
                 ),
-                const Text('Book Cleaners at the Comfort \n of you home.',
-                    style: TextStyle(fontSize: 20, color: Colors.white),
+                 Text('Book Cleaners at the Comfort \n of you home.',
+                    style: TextStyle(fontSize: 20.sp, color: Colors.white),
                     textAlign: TextAlign.center),
                 Image.asset(
                   'assets/image/photogetstart.png',
-                  height: 300,
+                  height: 300.h,
                 ),
               ],
             ),
@@ -63,13 +63,13 @@ class _GetStartScreenState extends State<GetStartScreen> {
               'Get Started',
               style: TextStyle(
                 color: MyColor.myPurple,
-                fontSize: 25,
+                fontSize: 25.sp,
               ),
             ),
-            shape: const OutlineInputBorder(
+            shape:  OutlineInputBorder(
               borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(20),
-                  bottomRight: Radius.circular(20)),
+                  topLeft: Radius.circular(20.r),
+                  bottomRight: Radius.circular(20.r)),
             ),
           )),
     );

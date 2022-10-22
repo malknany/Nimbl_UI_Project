@@ -12,7 +12,7 @@ class WidgetOneProfile extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
-            title: Text('Notifications',
+            title: Text('notification',
                 style: TextStyle(
                   color: MyColor.myBlack,
                 )),

@@ -15,7 +15,7 @@ class PlanScreen extends StatefulWidget {
 }
 
 class _PlanScreenState extends State<PlanScreen> {
-  bool isSelect = false;
+  //bool isSelect = false;
   final controller = PlanController();
 
   @override
@@ -31,30 +31,30 @@ class _PlanScreenState extends State<PlanScreen> {
               SizedBox(
                 height: 10.h,
               ),
-              const Text(
+               Text(
                 'Your Plan',
-                style: TextStyle(fontSize: 20, color: Colors.white),
+                style: TextStyle(fontSize: 20.sp, color: Colors.white),
               ),
               SizedBox(
                 height: 20.h,
               ),
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 15),
-                decoration: const BoxDecoration(
+                decoration:  BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(20),
-                    topRight: Radius.circular(20),
+                    topLeft: Radius.circular(20.r),
+                    topRight: Radius.circular(20.r),
                   ),
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Padding(
+                     Padding(
                       padding: EdgeInsets.only(top: 30.0, bottom: 20),
                       child: Text(
                         'Selected Cleaning',
-                        style: TextStyle(fontSize: 25, color: Colors.black),
+                        style: TextStyle(fontSize: 25.sp, color: Colors.black),
                       ),
                     ),
                     const WidgetOne(),

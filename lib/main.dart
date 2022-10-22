@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:nimbl_project/view/calender/view.dart';
 import 'package:nimbl_project/view/get_started/view.dart';
-import 'package:nimbl_project/view/onbording/view.dart';
+import 'package:nimbl_project/view/on_bording/view.dart';
 import 'package:nimbl_project/view/plan/view.dart';
 import 'package:nimbl_project/view/profile/view.dart';
 

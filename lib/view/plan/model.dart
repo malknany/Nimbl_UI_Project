@@ -1,5 +1,5 @@
 class PlanModel {
-  String icon, notif, text;
+  String icon, notification, text;
 
-  PlanModel({required this.icon, required this.notif, required this.text});
+  PlanModel({required this.icon,  this.notification='', required this.text});
 }

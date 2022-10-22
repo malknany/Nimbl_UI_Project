@@ -27,7 +27,7 @@ class _WidgetOneState extends State<WidgetOne> {
               Container(
                   decoration: BoxDecoration(
                     color: MyColor.myLightPurple,
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.circular(20.r),
                   ),
                   child: Image.asset(
                     'assets/image/photo.png',
@@ -37,13 +37,13 @@ class _WidgetOneState extends State<WidgetOne> {
               SizedBox(
                 height: 28.8.h,
               ),
-              const Text(
+               Text(
                 'Initial Cleaning',
-                style: TextStyle(fontSize: 13, color: Colors.black),
+                style: TextStyle(fontSize: 13.sp, color: Colors.black),
               ),
               Checkbox(
-                side: const BorderSide(
-                  width: 1,
+                side:  BorderSide(
+                  width: 1.w,
                 ),
                 activeColor: MyColor.myPink,
                 value: isFirst,
@@ -65,7 +65,7 @@ class _WidgetOneState extends State<WidgetOne> {
               Container(
                   decoration: BoxDecoration(
                     color: MyColor.myLightPurple,
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.circular(20.r),
                   ),
                   child: Image.asset(
                     'assets/image/photo2.png',
@@ -75,13 +75,13 @@ class _WidgetOneState extends State<WidgetOne> {
               SizedBox(
                 height: 28.8.h,
               ),
-              const Text(
+               Text(
                 'Upkeep Cleaning',
-                style: TextStyle(fontSize: 13, color: Colors.black),
+                style: TextStyle(fontSize: 13.sp, color: Colors.black),
               ),
               Checkbox(
-                side: const BorderSide(
-                  width: 1,
+                side:  BorderSide(
+                  width: 1.w,
                 ),
                 activeColor: MyColor.myPink,
                 value: isScaond,

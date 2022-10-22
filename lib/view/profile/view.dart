@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 import 'package:nimbl_project/componant/const/mycolor.dart';
 import 'package:nimbl_project/view/profile/widget/widget_tow.dart';
@@ -25,7 +26,7 @@ class ProfileScreen extends StatelessWidget {
                     child: CircleAvatar(
                       backgroundImage:
                           const AssetImage('assets/image/profile.png'),
-                      radius: 45,
+                      radius: 45.r,
                       child: LoadingAnimationWidget.discreteCircle(
                           color: Colors.white,
                           size: 110,
@@ -41,37 +42,37 @@ class ProfileScreen extends StatelessWidget {
                 clipBehavior: Clip.antiAlias,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  borderRadius: const BorderRadius.only(
-                      topRight: Radius.circular(20),
-                      topLeft: Radius.circular(20)),
+                  borderRadius:  BorderRadius.only(
+                      topRight: Radius.circular(20.r),
+                      topLeft: Radius.circular(20.r)),
                   color: MyColor.myColorDivider,
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: const [
+                  children:  [
                     Padding(
-                      padding: EdgeInsets.only(left: 20, top: 20, bottom: 20),
+                      padding: const EdgeInsets.only(left: 20, top: 20, bottom: 20),
                       child: Text(
                         'Account',
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 18,
+                            fontSize: 18.sp,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    WidgetOneProfile(),
+                    const WidgetOneProfile(),
                     Padding(
-                      padding: EdgeInsets.only(left: 20, top: 20, bottom: 20),
+                      padding: const EdgeInsets.only(left: 20, top: 20, bottom: 20),
                       child: Text(
                         'Share',
                         style: TextStyle(
                             color: Colors.black,
-                            fontSize: 18,
+                            fontSize: 18.sp,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
-                    WidgetTowProfile(),
-                    Spacer()
+                    const WidgetTowProfile(),
+                    const Spacer()
                   ],
                 ),
               ),

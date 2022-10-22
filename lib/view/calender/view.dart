@@ -24,21 +24,21 @@ class _CalenderScreenState extends State<CalenderScreen> {
             children: [
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: const [
+                children:  [
                   Text(
                     'Cleaner Calender',
-                    style: TextStyle(color: Colors.white, fontSize: 29),
+                    style: TextStyle(color: Colors.white, fontSize: 29.sp),
                   ),
                   CalenderWidget(),
                 ],
               ),
               Expanded(
                 child: Container(
-                  decoration: const BoxDecoration(
+                  decoration:  BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.only(
-                        topRight: Radius.circular(20),
-                        topLeft: Radius.circular(20)),
+                        topRight: Radius.circular(20.r),
+                        topLeft: Radius.circular(20.r)),
                   ),
                   child: Column(
                     children: [
